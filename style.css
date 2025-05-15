@@ -131,3 +131,22 @@ h2 {
     text-align: center;
     padding: 16px;
 }
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 96px 192px 96px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: justify;
+    padding-bottom: 24px;
+}
+
+.attribution {
+    text-align: end;
+    font-size: 20px;
+    font-weight: 900;
+}
