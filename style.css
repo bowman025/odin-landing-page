@@ -88,8 +88,13 @@ button {
     background-color: #3882F6;
     border: none;
     padding: 8px 24px;
-    border-radius: 8%;
+    border-radius: 12px;
     max-width: fit-content;
+}
+
+button:hover {
+    background-color: #e5e7eb;
+    color: #3882F6 ;
 }
 
 .information {
@@ -176,5 +181,4 @@ h2 {
 
 .cta-right button {
     border: 2px solid #e5e7eb;
-    border-radius: 12px;
 }
