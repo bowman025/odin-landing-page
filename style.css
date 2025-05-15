@@ -123,7 +123,7 @@ h2 {
 
 .info img {
     border: 3px solid #3882F6;
-    border-radius: 8%;
+    border-radius: 24px;
 
 }
 
@@ -134,7 +134,7 @@ h2 {
 
 .quote-section {
     background-color: #e5e7eb;
-    padding: 96px 192px 96px;
+    padding: 96px 320px;
 }
 
 .quote {
@@ -149,4 +149,32 @@ h2 {
     text-align: end;
     font-size: 20px;
     font-weight: 900;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 96px 192px;
+    padding: 64px;
+    background-color: #3882F6;
+    gap: 32px;
+    border-radius: 12px;
+}
+
+.cta-left {
+    color: #f9faf8;
+}
+
+.cta-title {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.cta-right {
+    flex-shrink: 0;
+}
+
+.cta-right button {
+    border: 2px solid #e5e7eb;
+    border-radius: 12px;
 }
