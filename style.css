@@ -57,12 +57,12 @@ a:hover {
 
 .header-bottom-right {
     display: flex;
-    flex-shrink: 1;
 }
 
 .header-bottom-right img {
     border: 3px solid gray;
-
+    max-width: 100%;
+    max-height: 100%;
     flex-shrink: 1;
 }
 
