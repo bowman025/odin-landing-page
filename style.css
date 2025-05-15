@@ -13,7 +13,7 @@ body {
 .header {
     background-color: #1F2937;
     color: #f9faf8;
-    padding: 24px 192px 48px;
+    padding: 24px 192px 96px;
 }
 
 .header-top {
@@ -47,6 +47,7 @@ a:hover {
 .header-bottom-left {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 8px;
 }
 
@@ -54,15 +55,19 @@ a:hover {
     display: flex;
 }
 
-img {
+.header-bottom-right img {
     border-radius: 16%;
     border: 3px solid #3882F6;
+    max-width: 200%;
+    max-height:100%;
+    flex-shrink: 1;
 }
 
 h1 {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
+    max-width: 560px;
 }
 
 p,
@@ -72,10 +77,20 @@ button {
     font-weight: 400;
 }
 
+p {
+    max-width: 560px;
+}
+
 button {
     background-color: #3882F6;
     border: none;
     padding: 8px 24px;
     border-radius: 8%;
     max-width: fit-content;
+}
+
+h2 {
+    size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
