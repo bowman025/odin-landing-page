@@ -57,12 +57,12 @@ a:hover {
 
 .header-bottom-right {
     display: flex;
+    flex-shrink: 1;
 }
 
 .header-bottom-right img {
     border: 3px solid gray;
-    max-width: 200%;
-    max-height:100%;
+
     flex-shrink: 1;
 }
 
@@ -156,7 +156,7 @@ h2 {
     font-weight: 900;
 }
 
-.footer {
+.cta {
     display: flex;
     justify-content: space-between;
     margin: 96px 192px;
@@ -181,4 +181,14 @@ h2 {
 
 .cta-right button {
     border: 2px solid #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 24px; 
 }
