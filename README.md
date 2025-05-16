@@ -1,1 +1,2 @@
 # odin-landing-page
+My first landing page. Created by following the instructions in the Odin Project's Foundations Course. I found interesting free pixel art on one of the recommended websites, so I opted to go with it instead of leaving empty placeholders which hopefully makes the page look a bit more fun, if nothing else. If anyone ever reads this, I salute you!
